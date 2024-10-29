@@ -1,3 +1,7 @@
+"""In this we take the days input from the user and give that how many years, months, weeks and days are produced by these days you enter"""
+
+Code:- 
+
 days = int(input("enter days : "))
 
 #for calculate the years, 1 year = 365 days
