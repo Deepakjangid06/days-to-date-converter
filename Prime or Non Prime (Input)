@@ -1,0 +1,12 @@
+""" For the Prime and Non Prime of the Input Nos"""
+
+Code:-
+
+# for the Prime and Non Prime No. of the Input No.
+num = int(input("Enter the No. : "))
+for i in range(2, (num//2)+1):
+    if (num%i)==0:
+        print("Not a Prime No.")
+        break
+else:
+    print("It's a Prime No.")
