@@ -1,0 +1,10 @@
+""" For find the factorial of the given nos means of the input no."""
+
+Code:-
+
+#for find the factorial of an given no. means the input....!
+a = int(input("Enter the No. : "))
+j = 1
+for i in range (1, a+1):
+    j=j*i
+print(j)
