@@ -1,0 +1,12 @@
+""" For the Prime and Non Prime No. not input only of the 2 to 20 No."""
+
+Code:-
+
+# for find the prime and non prime no. of the 20 nos
+for i in range(2,21):
+    for j in range(2,(i//2)+1):
+        if i%j==0:
+            print("Non Prime No.", i)
+            break
+    else:
+        print("Prime No.", i)
