@@ -1,0 +1,11 @@
+""" For the Even-Odd No. from the Input 
+
+Code:-
+
+# for the Odd and Even of the Input Nos
+num = int(input("Enter the No. : "))
+
+if num%2 ==0:
+    print("Even No.")
+else:
+    print("Odd No.")
