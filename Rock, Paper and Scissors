@@ -1,0 +1,27 @@
+""" Rock, Paper and Scissors Game"""
+
+Code:-
+
+import random
+
+# What are the Options in the Game to Choose
+options = ["rock", "paper", "scissors"]
+# for the user input
+user_choice = input('''Select any One of them : "Rock", "Paper", "Scissors"''')
+# Now we need the Computer Choice 
+com_choice = random.choice(options)
+
+# for displaying that what the user and computer choice
+print("Computer Choice : ", com_choice)
+print("User Choice : ", user_choice)
+
+# for determining the Winner of the Game
+if user_choice == com_choice:
+    print("It's a Tie, Brother...!")
+elif user_choice == "rock" and com_choice =="scissors" or\
+    user_choice == "paper" and com_choice == "rock" or\
+        user_choice =="scissors" and com_choice == "paper":
+            print("You are the winner, Brother..!")
+else:
+    print("You are Losser, :(")
+
