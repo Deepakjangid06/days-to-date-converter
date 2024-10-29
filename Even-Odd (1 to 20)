@@ -1,0 +1,13 @@
+""" For the Even and Odd No. from 1 to 20 means no input
+
+Code:-
+
+# for Even and Odd No. not input from the 1 to 20
+i = 1
+while i <= 20:
+    print(i)
+    if (i % 2) == 0:
+        print("Even No.")
+    else:
+        print("Odd No.")
+    i = i + 1
