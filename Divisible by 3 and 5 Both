@@ -1,0 +1,12 @@
+"""For check divisibility by the 3 and 5 both"""
+
+Code:-
+
+# In this code we take the input from the user and then output is that that nos are divisible by both 3 and 5 or not...?
+num1 = int(input("Enter the 1st No. : "))
+#now using the if - else condition we explain it ...!
+if num1%3==0 and num1%5==0:
+    print("Yeah! No. is divisible by Both Nos (3 and 5)")
+else:
+    print("Error: No. is not divisible by Both Nos (3 and 5)")
+    
